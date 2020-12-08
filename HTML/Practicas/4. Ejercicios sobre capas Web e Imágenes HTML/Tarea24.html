@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+    <head>
+        <title>
+            Estructura Web
+        </title>
+
+        <meta name="author" content="Alba Serrano">
+        <meta name="description" content="Tarea: 24.Ejercicios - Estructura Web mediante capas con DIV e ID">
+        <meta content="width=device-width, initial-scale=1.0">
+        <meta charset="utf-8">
+
+        <style>
+            div{
+                border:1px solid #000000;
+                padding:5px 10px;
+                overflow: auto;
+            }
+            body{
+                font-family: 'Comic Sans MS', 'Comic Sans', cursive;
+            }
+            button{
+                border: 2px solid #000000;
+                border-right: 4px solid #000000;
+                border-bottom: 4px solid #000000;
+                text-align: center;
+                font-family:'Comic Sans MS', 'Comic Sans', cursive;
+                font-size: larger;
+            }
+            .fullscreen{
+                padding:0px 0px;
+            }
+            .imgfloatleft{
+                padding: 50px 20px;
+            }
+            .imgfloatright{
+                padding-right: 20px;
+                padding-left: 20px;
+                padding-bottom: 40px;
+            }
+            .section{
+                border: none;
+                overflow: auto;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div id=page>
+            <div id=header>
+                <p style="text-align:right"><a href="">Sobre nosotros</a> | <a href="">Blog</a> | <a href="">Contacto</a></p>
+                <p style="text-align:center"><img src="/Users/x666x/Lenguaje-de-marcas/HTML/Practicas/Recursos/CuadradoTachad.png" style="width:500px;height:100px;"></p>
+            </div>
+            <div id=enlace>
+                <p>
+                    <a href="#video">Categoría 1</a>&nbsp;
+                    <a href="#secciones">Categoría 2</a>&nbsp;
+                    <a href="#promo">Categoría 3</a>&nbsp;
+                    <a href="#footer">Categoría 4</a>
+                </p>
+            </div>
+            <div id=video class=fullscreen>
+                <video controls width="100%">
+                    <source src="">
+                </video>
+            </div>
+            <div id="secciones">
+                <div class="section">
+                    <img class="imgfloatleft" style="float:left;" src="https://raw.githubusercontent.com/GoodLvck/Lenguaje-de-marcas/main/HTML/Practicas/Recursos/CuadradoTachad.png" width="600px" height="400px"></img>
+                    <h1 style="padding-top: 20px;"><i><b>Lorem Ipsum Dolor Sit Amet</b></i></h1>
+                    <p style="font-size: x-large; padding-right: 80px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod <br> incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <br>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo<br> consequat.</p>
+                    <button type="button" onclick="">+ info</button>
+                </div>
+                <div class="section">
+                    <img class="imgfloatright" style="float:right;" src="https://raw.githubusercontent.com/GoodLvck/Lenguaje-de-marcas/main/HTML/Practicas/Recursos/CuadradoTachad.png" width="600px" height="400px"></img>
+                    <h1 style="padding-left: 40px;"><i><b>Lorem Ipsum Dolor Sit Amet</b></i></h1>
+                    <p style="font-size: x-large; padding-left: 40px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod <br> incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <br>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo<br> consequat.</p>
+                    <p style="padding-left: 40px;"><button style="padding-left: 40pxs;" type="button" onclick="">+ info</button></p>
+                </div>
+            <div id=promo style="padding: 200px;">
+                <div style="border: none;">
+                    <h1 style="text-align: center;"><i>Personas que conectan con personas</i></h1>
+                </div>
+            </div>
+            <div id=footer>
+                <div style="border: none;">
+                    <div style="float: left;padding: 50px 80px;border: none;">
+                        <h1 style="text-align: center;"><u>Sabías qué...</u></h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod <br> incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                    <!--Sabías qué izquierda + Contacto derecha + 3 fotos abajo-->
+                    <div style="float: right;padding: 50px 100px;border: none;">
+                        <h1 style="text-align: center;"><u>Contacto</u></h1>
+                        <ul style="list-style-type:none;">
+                            <li>Dirección: Una dirección inventada, Barcelona</li>
+                            <li>Teléfono: <a href="tel:932123123">932 123 123</a></li>
+                            <li>Horario:
+                                <ul style="list-style-type:none;">
+                                    <li>Lu - Vie 09.00 - 13.00</li>
+                                    <li>Lu - Vie 16.00 - 19.30</li>
+                                    <li>Sb 09.00 - 13.00</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div style="border: none;">
+                    <p style="text-align: center;">
+                        <img style="width: 30%; height:200px;" src="https://raw.githubusercontent.com/GoodLvck/Lenguaje-de-marcas/main/HTML/Practicas/Recursos/CuadradoTachad.png"></img>
+                    <img style="width: 30%; height:200px;" src="https://raw.githubusercontent.com/GoodLvck/Lenguaje-de-marcas/main/HTML/Practicas/Recursos/CuadradoTachad.png"></img>
+                    <img style="width: 30%; height:200px;" src="https://raw.githubusercontent.com/GoodLvck/Lenguaje-de-marcas/main/HTML/Practicas/Recursos/CuadradoTachad.png"></img>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </body>
+
+</html>
