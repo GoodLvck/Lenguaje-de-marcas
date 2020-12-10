@@ -8,7 +8,7 @@ Para la realización de la segunda parte del examen se han tomado los archivos b
 
 **A continuación se añade el CSS proporcionado a través de la etiqueta *link***
 
-``` <link href="style.css" rel="stylesheet"> ´´´
+`<link href="style.css" rel="stylesheet">` 
 
 ![CSS](Resources/CSS.png)
 
