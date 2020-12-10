@@ -18,4 +18,4 @@ Para ello añadimos las etiquetas ```<header>```, ```<nav>```,```<main>```,```<a
 
 El resultado final es el siguiente:
 
-![Resultado](Resources/Resultado.png)
+![Resultado](Resources/Resultado.PNG)
