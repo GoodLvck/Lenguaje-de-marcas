@@ -12,3 +12,10 @@ Para la realización de la segunda parte del examen se han tomado los archivos b
 
 ![CSS](Resources/CSS.png)
 
+**Por último estructuramos correctamente el texto**
+
+Para ello añadimos las etiquetas ```<header>```, ```<nav>```,```<main>```,```<article>```,```<aside>``` y ```<footer>```.
+
+El resultado final es el siguiente:
+
+![Resultado](
