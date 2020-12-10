@@ -4,7 +4,7 @@ Para la realización de la segunda parte del examen se han tomado los archivos b
 
 **Este era el aspecto original del documento HTML proporcionado.**
 
-![hola](Resources/Original.png)
+![original](Resources/Original.png)
 
 **A continuación se añade el CSS proporcionado a través de la etiqueta *link***
 
