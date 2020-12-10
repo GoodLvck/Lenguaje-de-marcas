@@ -7,6 +7,7 @@ Este era el aspecto original del documento HTML proporcionado.
 ![hola](Resources/Original.png)
 
 A continuación se añade el CSS proporcionado a través de la etiqueta *link*
+    <link href="style.css" rel="stylesheet">
 
 ![CSS](Resources/CSS.png)
 
