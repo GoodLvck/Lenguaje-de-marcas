@@ -1,0 +1,33 @@
+*{box-sizing: border-box;}
+
+.contenedor{
+    width: 400px;
+    margin: 50px;
+}
+
+div[class *=caja-]{
+    width: 100px;
+    height: 50px;
+    padding: 10px;
+    border: 1px solid #000000;
+    background-color: #cccccc;
+    margin: 10px;
+    text-align: center;
+    display: inline-block;
+}
+
+.caja-A{box-shadow: -2px -2px #000000;}
+.caja-B{box-shadow: -2px -2px 5px #000000;}
+.caja-C{box-shadow: -2px -2px 0 2px #000000;}
+.caja-D{box-shadow: -2px -2px 5px 2px #000000;}
+.caja-E{box-shadow: 0 0 5px 0px #000000;}
+.caja-F{box-shadow: 0 0 1px 1px #000000;}
+
+.caja-G{box-shadow: 2px 2px #000000;}
+.caja-H{box-shadow: 2px 2px 5px #000000;}
+.caja-I{box-shadow: 2px 2px 0 2px #000000;}
+.caja-J{box-shadow: 2px 2px 5px 2px #000000;}
+.caja-K{box-shadow: 0 0 5px 0px #000000;}
+.caja-L{box-shadow: 0 0 1px 1px #000000;}
+
+
