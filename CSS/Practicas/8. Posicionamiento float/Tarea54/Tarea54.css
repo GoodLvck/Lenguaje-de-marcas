@@ -1,0 +1,59 @@
+body{
+    background-color:lightcyan;
+    margin: 2%;
+}
+
+header{
+    width: 50%;
+    margin-left: auto;
+    border: 1px solid black;
+}
+
+section#navegacion{
+    width: 15%;
+    float: left;
+    background-color: lightgoldenrodyellow;
+}
+
+#contenido{
+    width: 80%;
+    float: right;
+    background-color: lime;
+}
+
+#caja1{
+    background-color: mediumturquoise;
+}
+
+#caja2{
+    background-color: mediumvioletred;
+    width: 49%;
+    float: left;
+}
+
+#caja3{
+    background-color: palegoldenrod;
+    width: 24%;
+    float: left;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+#caja4{
+    background-color: pink;
+    width: 24%;
+    float: left;
+}
+
+#publicidad{
+    float:right;
+    width:33%; 
+    clear:both;
+    background-color: paleturquoise;
+}
+
+#copyright{
+    float: left;
+    width: 66%;
+    background-color: palevioletred;
+}
