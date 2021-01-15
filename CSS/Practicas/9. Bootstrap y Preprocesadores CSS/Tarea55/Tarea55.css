@@ -1,0 +1,43 @@
+@media screen and (max-width: 400px){
+    div{
+        float: left;
+        background-color: #eeeeee;
+        margin-top: 40px;
+    }
+}
+
+@media screen and (min-width: 401px) and (max-width: 800px){
+    #cajaA{
+        width: 49%;
+        float: left;
+    }
+
+    #cajaB{
+        width: 49%;
+        float: right;
+    }
+
+    #cajaC{
+        clear: both;
+    }
+
+    div{
+        background-color: #bbbbbb;
+    }
+}
+
+@media screen and (min-width: 801px){
+    #cajaA, #cajaB{
+        width: 20%;
+        float: left;
+    }
+
+    #cajaC{
+        width: 58%;
+        float: right;
+    }
+
+    div{
+        background-color: #eeeeee;
+    }
+}
