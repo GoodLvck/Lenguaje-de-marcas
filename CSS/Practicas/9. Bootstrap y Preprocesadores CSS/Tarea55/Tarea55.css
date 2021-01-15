@@ -7,17 +7,17 @@
 }
 
 @media screen and (min-width: 401px) and (max-width: 800px){
-    #cajaA{
+    #A{
         width: 49%;
         float: left;
     }
 
-    #cajaB{
+    #B{
         width: 49%;
         float: right;
     }
 
-    #cajaC{
+    #C{
         clear: both;
     }
 
@@ -27,12 +27,12 @@
 }
 
 @media screen and (min-width: 801px){
-    #cajaA, #cajaB{
+    #A, #B{
         width: 20%;
         float: left;
     }
 
-    #cajaC{
+    #C{
         width: 58%;
         float: right;
     }
