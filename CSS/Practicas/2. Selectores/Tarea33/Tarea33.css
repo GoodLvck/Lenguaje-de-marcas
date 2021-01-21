@@ -1,0 +1,12 @@
+#f1{color: teal;}
+#f2{color: red;}
+#f3{color: blue;}
+#f4{color: orange;}
+#f5{color: purple;}
+#f6{color: olive;}
+#f7{color: fuchsia;}
+#f8{color: green;}
+
+td + td{background-color: red;}
+td + td + td{background-color: green;}
+td + td + td + td{background-color: blue;}

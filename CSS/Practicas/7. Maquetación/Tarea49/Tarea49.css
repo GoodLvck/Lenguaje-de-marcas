@@ -1,0 +1,34 @@
+body{
+    background-image: url(https://image.freepik.com/foto-gratis/textura-papel-fondo-papel-arrugado-blanco_5207-1448.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-size: 23px;
+}
+
+p{
+    text-indent: 20px;
+}
+
+div#enlaces{
+    position: fixed;
+    top: 40%;
+    left: 0px;
+    width: 20%;
+    padding-left: 30px;
+}
+
+div#contenido{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 80%;
+}
+
+img#sully{
+    width: 25%;
+    border: solid black 1px;
+    padding: 4px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

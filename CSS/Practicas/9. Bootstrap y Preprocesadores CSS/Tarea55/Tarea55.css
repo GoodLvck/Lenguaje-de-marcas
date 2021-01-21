@@ -1,0 +1,43 @@
+@media screen and (max-width: 400px){
+    div{
+        float: left;
+        background-color: #eeeeee;
+        margin-top: 40px;
+    }
+}
+
+@media screen and (min-width: 401px) and (max-width: 800px){
+    #A{
+        width: 49%;
+        float: left;
+    }
+
+    #B{
+        width: 49%;
+        float: right;
+    }
+
+    #C{
+        clear: both;
+    }
+
+    div{
+        background-color: #bbbbbb;
+    }
+}
+
+@media screen and (min-width: 801px){
+    #A, #B{
+        width: 20%;
+        float: left;
+    }
+
+    #C{
+        width: 58%;
+        float: right;
+    }
+
+    div{
+        background-color: #eeeeee;
+    }
+}

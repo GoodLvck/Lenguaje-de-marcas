@@ -1,0 +1,19 @@
+.primero{text-align: center;}
+
+p.primero{color: yellow;}
+
+section.primero{color: green;}
+
+#paco{padding-left: 50px;}
+     
+#moco{text-align: right;}
+p#moco{color: purple;}
+    
+.primero > span{color: plum;}
+    
+.primero span{color: orange;}
+    
+span .primero{color: red;}
+span > .primero{color: teal;}
+    
+.primero.parding{color: yellowgreen;}
