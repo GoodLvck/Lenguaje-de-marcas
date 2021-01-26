@@ -1,5 +1,5 @@
 # Declaraciones correctas e incorrectas
-
+### Se mostrarán tachadas las declaraciones incorrectas
 
 
 Edad = 50;
