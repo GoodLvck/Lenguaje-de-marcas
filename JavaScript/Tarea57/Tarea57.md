@@ -2,6 +2,7 @@
 ### Se mostrarán tachadas las declaraciones incorrectas
 
 
+
 Edad = 50;
 
 var b, c;
