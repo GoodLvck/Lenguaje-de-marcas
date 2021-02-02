@@ -1,8 +1,10 @@
-function calcularDesviacionMedia(vector_valores){
-    var media=calcularMedia(vector_valores)
+var numerosV = [1, 2, 4, 5]
+
+function desv_media(numeros){
+    var media=calcMedia(numeros)
     var suma=0
-    for (var pos in vector_valores){
-        suma= suma + Math.abs (  vector_valores[pos] - media  )
+    for (var i in numeros){
+        suma= suma + Math.abs ( numeros[i] - media )
     }
-    return suma / vector_valores.length
+    return suma / numeros.length
 }
