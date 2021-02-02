@@ -1,0 +1,26 @@
+.cita{
+    color: palevioletred;
+}
+
+p#destacado{
+    border: 1px solid black;
+    border-radius: 2.5px;
+    padding-right: 0px;
+}
+
+.p_destacado{
+    background-color: lightcyan;
+}
+
+#id1{
+    font-weight: bold;
+    color: purple;
+}
+
+.destacado{
+    text-decoration: underline;
+}
+
+.elemento_numeracion{
+    font-size: x-large;
+}
