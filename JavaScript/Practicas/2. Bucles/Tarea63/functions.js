@@ -1,10 +1,12 @@
-var numeros = [1, 5, 7, 7, 10, 11]
+var numeros = [1, 5, 8, 10, 11]
 numeros.sort
 
-if (numeros.length % 2 == 0){
-    var mediana =  (numeros[numeros.length / 2 - 1] + numeros[numeros.length / 2])
+if (numeros.length % 2 == 0) {
+    var mediana =  (numeros[numeros.length / 2 - 1] + numeros[numeros.length / 2])/2;
+} else if (numeros.length % 2 == 1) {
+    var mediana = numeros[(numeros.length - 1)/2];
 } else {
-    var mediana = muneros[(numeros.length - 1)/2]
+    window.alert("Valores incorrectos");
 }
 
 document.write("La mediana es: " + mediana)

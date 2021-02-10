@@ -1,10 +1,15 @@
-var numerosV = [1, 2, 4, 5]
+var numeros = [1, 2, 3, 5]
+var suma = 0
+var media = suma / numeros.length
 
-function desv_media(numeros){
-    var media=calcMedia(numeros)
-    var suma=0
-    for (var i in numeros){
-        suma= suma + Math.abs ( numeros[i] - media )
+function desvMedia(){
+    for (var i in numeros) {
+        var desviacion = Math.abs ( numeros[i] - media )
+        suma = suma + desviacion
     }
-    return suma / numeros.length
+
+    var desv_media = suma / numeros.length
+    document.write("<br/>La desviación media es igual a : " + desv_media)
 }
+
+desvMedia()
