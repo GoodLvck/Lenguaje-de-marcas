@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+    <head>
+        <title>
+            Tarea 78
+        </title>
+
+        <meta name="author" content="Alba Serrano">
+        <meta name="description" content="Tarea 78">
+        <meta content="width=device-width, initial-scale=1.0">
+        <meta charset="utf-8">
+
+    </head>
+
+    <body>
+        <form>
+            <fieldset>
+                <legend>Preferencias</legend>
+                
+                <p>Elija una fecha: <input type="date"></p>
+                <p>Elija una hora: <input type="time"></p>
+                <p>Elija un fichero: <input type="file"></p>
+
+                <select name="lenguaje" multiple="multiple">
+                    <option value="python">Python</option>
+                    <option value="html">HTML</option>
+                    <option value="visual_basic">Visual Basic</option>
+                    <option value="java">Java</option>
+                </select>
+
+                <p>Elija un color <input type="color"></p>
+
+                <p><input type="checkbox" name="hardware" value="hardwaremonitor_led">Monitor LED</p>
+                <p><input type="checkbox" name="hardware" value="hardwaressd">SSD</p>
+
+                <textarea cols="48" rows="5">Inserte aquí el texto</textarea>
+
+                <p>Instituto<input type="text" name="instituto"></p>
+                <p>Estudios<input type="text" name="estudios"></p>
+                <p>Nombre<input type="text" name="nombre"></p>
+                <p>Apellidos<input type="text" name="apellidos"></p>
+                <p>Email<input type="text" name="email"></p>
+
+                <p><input type="radio" name="conector" value="conectorusb">USB</p>
+                <p><input type="radio" name="conector" value="conectorparalelo">Paralelo</p>
+                <p><input type="radio" name="conector" value="conectorps2">PS2</p>
+
+            </fieldset>
+        </form>
+    </body>
+
+</html>
