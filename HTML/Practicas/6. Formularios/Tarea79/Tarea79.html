@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+    <head>
+        <title>
+            Tarea 79
+        </title>
+
+        <meta name="author" content="Alba Serrano">
+        <meta name="description" content="Tarea 79">
+        <meta content="width=device-width, initial-scale=1.0">
+        <meta charset="utf-8">
+
+    </head>
+
+    <body>
+        <form>
+            <fieldset>
+                <legend>Formulario y opciones</legend>
+                
+                <p>Elija un color <input type="color"></p>
+                
+                <p>Instituto<input type="text" name="instituto"></p>
+                <p>Estudios elegidos<input type="text" name="estudios"></p>
+
+                <p><input type="radio" name="navegador" value="navegadorfirefox">Firefox</p>
+                <p><input type="radio" name="navegador" value="navegadorchrome">Chrome</p>
+                <p><input type="radio" name="navegador" value="navegadoropera">Opera</p>
+                <p><input type="radio" name="navegador" value="navegadorie">IE</p>
+
+                <p>Elija un fichero: <input type="file"></p>
+                <p>Elija una hora: <input type="time"></p>
+
+                <p><input type="checkbox" name="hardware" value="hardwaretarjeta_aceleradora">Tarjeta aceleradora</p>
+                <p><input type="checkbox" name="hardware" value="hardwaremonitor_led">Monitor LED</p>
+                <p><input type="checkbox" name="hardware" value="hardwaressd">SSD</p>
+
+                <textarea cols="54" rows="6">Utilice este recuadro por favor</textarea>
+            </fieldset>
+
+            <fieldset>
+                <legend>Completar estas opciones</legend>
+
+                <p>
+                    <input type="radio" name="navegador" value="navegadorfirefox">Firefox
+                    <input type="radio" name="navegador" value="navegadorchrome">Chrome
+                    <input type="radio" name="navegador" value="navegadoropera">Opera
+                    <input type="radio" name="navegador" value="navegadorie">IE
+                </p>
+                
+                <p>Elija una fecha: <input type="date"></p>
+
+                <p>Instituto<input type="text" name="instituto"></p>
+                <p>Estudios elegidos<input type="text" name="estudios"></p>
+
+                <p>Elija una hora: <input type="time"></p>
+                <p>Elija un color <input type="color"></p>
+                <p>Elija un fichero: <input type="file"></p>
+
+                <select name="ciclo" multiple="multiple">
+                    <option value="smir">SMIR</option>
+                    <option value="asir">ASIR</option>
+                    <option value="dam">DAM</option>
+                    <option value="daw">DAW</option>
+                </select>
+            </fieldset>
+        </form>
+    </body>
+</html>
