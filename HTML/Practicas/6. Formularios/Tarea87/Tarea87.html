@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+    <head>
+        <title>
+            Tarea 87
+        </title>
+
+        <meta name="author" content="Alba Serrano">
+        <meta name="description" content="Tarea 87">
+        <meta content="width=device-width, initial-scale=1.0">
+        <meta charset="utf-8">
+
+    </head>
+
+    <body>
+        <form>
+            <fieldset>
+                <legend>Completar</legend>
+
+                <p>
+                    DNI <input type="text" name="dni">
+                    Nombre <input type="text" name="nombre">
+                    Apellidos <input type="text" name="apellidos">
+                    Teléfono <input type="text" name="telefono">
+                </p>
+
+                <p><input type="radio" name="procesador" value="procesadorintel">Intel</p>
+                <p><input type="radio" name="procesador" value="procesadoramd">AMD</p>
+
+                <p>Elija una hora: <input type="time"></p>
+                
+                <p><input type="checkbox" name="dia" value="dialunes">Lunes</p>
+                <p><input type="checkbox" name="dia" value="diamartes">Martes</p>
+                <p><input type="checkbox" name="dia" value="diamiercoles">Miércoles</p>
+                <p><input type="checkbox" name="dia" value="diajueves">Jueves</p>
+                <p><input type="checkbox" name="dia" value="diasabado">Sábado</p>
+
+                <p>Elija un fichero: <input type="file"></p>
+                <p>Elija una fecha: <input type="date"></p>
+            </fieldset>
+
+            <fieldset>
+                <legend>Indique sus preferencias por favor</legend>
+                
+                <select name="ciclo" multiple="multiple">
+                    <option value="smir">SMIR</option>
+                    <option value="asir">ASIR</option>
+                    <option value="dam">DAM</option>
+                    <option value="daw">DAW</option>
+                </select>
+
+                <textarea cols="52" rows="7">Escriba aquí, por favor</textarea>
+
+                <p>
+                    <input type="radio" name="provincia" value="provinciaalbacete">Albacete
+                    <input type="radio" name="provincia" value="provinciaciudad_real">Ciudad Real
+                    <input type="radio" name="provincia" value="provinciacuenca">Cuenca
+                    <input type="radio" name="provincia" value="provinciaguadalajara">Guadalajara
+                    <input type="radio" name="provincia" value="provinciatoledo">Toledo
+                </p>
+
+                <p>Elija la hora: <input type="time"></p>
+                <p>Elija un color: <input type="color"></p>
+
+            </fieldset>
+        </form>
+    </body>
+</html>
