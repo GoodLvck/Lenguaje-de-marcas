@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+    <head>
+        <title>
+            Tarea 73
+        </title>
+
+        <meta name="author" content="Alba Serrano">
+        <meta name="description" content="Tarea 73">
+        <meta content="width=device-width, initial-scale=1.0">
+        <meta charset="utf-8">
+
+    </head>
+
+    <body>
+        <form>
+            <fieldset>
+                <legend>Rellenar</legend>
+                <p><input type="radio" name="idioma" id="ingles"> Inglés</p> 
+                <p><input type="radio" name="idioma" id="aleman"> Alemán</p>
+                <p><input type="radio" name="idioma" id="frances"> Francés</p>
+
+                <select name="conector">
+                    <option value="usb">USB</option>
+                    <option value="paralelo">Paralelo</option>
+                    <option value="ps2">PS2</option>
+                </select>
+
+                <p>Nombre <input type="text" name="nombre"></p>
+                <p>Apellidos <input type="text" name="apellidos"></p>
+            </fieldset>
+            <fieldset>
+                <legend>Indique sus preferencias por favor</legend>
+                <select name="sexo" multiple="multiple">
+                    <option value="hombre">Hombre</option>
+                    <option value="mujer">Mujer</option>
+                </select>
+
+                <p><input type="checkbox" name="sexo" id="mujer">Mujer</p>
+                <p><input type="checkbox" name="sexo" id="hombre">Hombre</p>
+
+                <p>Elija una fecha: <input type="date"></p>
+
+            </fieldset>
+        </form>
+    </body>
+
+</html>
